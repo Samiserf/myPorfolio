@@ -1,0 +1,36 @@
+.portada_sitio{
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    @media (max-width: 800px){
+        padding-top: 0;
+        width: 84vw;
+    } 
+    
+    .text{
+        color: white;
+        text-align: center;
+        h2{
+            font-size: 30px;
+            font-family: 'Verdana';
+            font-weight: 400;
+        }
+        h1{
+            font-size: 60px;
+              font-weight: 400;
+              display: inline-block;
+        }
+        /* Animation */
+        .anim_typewriter{
+          width:auto;
+          position:absolute;
+          opacity:0;
+          display: inline-block;
+        }
+    }
+}
+
