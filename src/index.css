@@ -6,9 +6,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #101010;
+  color: white;
 }
-
+p, span{
+  color: #777777;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+sup{
+  font-size: 18px;
+  color: #aaa9a9;
+  font-weight: 400;
+}
+h5{
+  color: #fff
+}
+a{
+  text-decoration: none;
+  color: #fff
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+  text-decoration: none;
+  color: #fff
 }

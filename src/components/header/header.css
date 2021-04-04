@@ -31,6 +31,7 @@
   font-size: 30px;
   font-family: 'Verdana';
   font-weight: 400;
+  display: inline-block;
 }
 
 .portada_sitio .text h1 {
@@ -44,5 +45,9 @@
   position: absolute;
   opacity: 0;
   display: inline-block;
+}
+
+.portada_sitio .text .text-transition span {
+  color: gray !important;
 }
 /*# sourceMappingURL=header.css.map */

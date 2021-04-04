@@ -18,6 +18,7 @@
             font-size: 30px;
             font-family: 'Verdana';
             font-weight: 400;
+            display: inline-block;
         }
         h1{
             font-size: 60px;
@@ -30,6 +31,9 @@
           position:absolute;
           opacity:0;
           display: inline-block;
+        }
+        .text-transition span{
+            color: gray !important;
         }
     }
 }

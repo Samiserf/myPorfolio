@@ -1,0 +1,80 @@
+.recurso {
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  page-break-inside: avoid;
+  margin-bottom: 30px;
+  padding-bottom: 8%;
+  position: relative;
+}
+
+.recurso img {
+  width: 100%;
+  margin-bottom: 8%;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.recurso .overImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: -1;
+}
+
+.recurso .overImage h5 {
+  width: auto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .recurso .overImage h5 {
+    font-size: 16px;
+    line-height: 138%;
+  }
+}
+
+.recurso .overImage p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .recurso .overImage p {
+    font-size: 14px;
+    line-height: 138%;
+    margin-bottom: 22px;
+  }
+}
+
+.recurso .overImage:hover {
+  z-index: 1;
+}
+
+.recurso:hover img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: .1;
+}
+/*# sourceMappingURL=art.css.map */

@@ -1,0 +1,25 @@
+.contact {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.contact a {
+  display: block;
+  padding-top: 10px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.social {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.social li {
+  display: inline-block;
+  padding-right: 30px;
+}
+/*# sourceMappingURL=footer.css.map */

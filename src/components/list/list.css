@@ -1,0 +1,80 @@
+.list {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.list.inverted {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list.inverted .left_side {
+  text-align: right;
+}
+
+.list.inverted .right_side {
+  text-align: left;
+}
+
+.list .left_side {
+  color: #fff;
+  width: 45%;
+}
+
+.list .left_side h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 10px;
+}
+
+.list .left_side p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.list .right_side {
+  width: 45%;
+  text-align: right;
+}
+
+.list .right_side ul {
+  list-style-type: none;
+}
+
+.list .right_side ul li {
+  width: auto;
+}
+
+.list .right_side ul li a {
+  color: #4b4c4c;
+  text-decoration: none;
+  font-size: 70px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.list .right_side ul li a:hover {
+  color: #fff;
+}
+
+.list .right_side ul li a sub {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 0;
+}
+/*# sourceMappingURL=list.css.map */

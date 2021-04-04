@@ -1,0 +1,101 @@
+.rail_contenido {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .rail_contenido {
+    height: auto;
+  }
+}
+
+.rail_contenido .contenido {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 500px;
+  overflow-x: none;
+}
+
+@media screen and (max-width: 480px) {
+  .rail_contenido .contenido {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    padding: 80px 0 60px 0;
+  }
+}
+
+.rail_contenido .contenido .introDesign {
+  height: 100%;
+  max-width: 70%;
+}
+
+.rail_contenido .contenido .introDesign span {
+  width: auto;
+}
+
+.rail_contenido .contenido .proyect {
+  height: 100%;
+  margin: 0 70px 0 70px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 480px) {
+  .rail_contenido .contenido .proyect {
+    width: calc(668px + (750 - 668) * ((100vw - 800px) / (1640 - 800)));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 94px;
+  }
+}
+
+@media screen and (max-width: 480px) and (max-width: 800px) {
+  .rail_contenido .contenido .proyect {
+    width: 84vw;
+  }
+}
+
+.rail_contenido .contenido .proyect img {
+  width: auto;
+  height: 93%;
+  display: block;
+  margin-bottom: 12px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 480px) {
+  .rail_contenido .contenido .proyect img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+}
+
+.rail_contenido .contenido .proyect h2 {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 480px) {
+  .rail_contenido .contenido .proyect h2 {
+    font-size: 14px;
+  }
+}
+
+.rail_contenido .contenido .proyect h2 sup {
+  font-size: 18px;
+}
+/*# sourceMappingURL=webDesign.css.map */
