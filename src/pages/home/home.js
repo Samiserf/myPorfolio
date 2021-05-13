@@ -8,9 +8,10 @@ import './home.css';
 
 
 // IMAGES
-import design1 from './../../images/lambo.jpg'
-import design2 from './../../images/missFortune.jpg'
-import design3 from './../../images/solsito.jpg'
+import utopia from './../../images/Utopia.PNG'
+import cuatroPatas from './../../images/4patas.PNG'
+import countries from './../../images/countries.PNG'
+import ecommerce from './../../images/filettoLucio_ecommerce.gif'
 
 import React, {useEffect} from 'react';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -22,70 +23,54 @@ export default function Home() {
   const social= [
     
     {
-      link:"www.linkedin.com",
+      link:"https://www.linkedin.com/in/lucio-filetto-a8165b174/",
       red:"Linkedin"
     },
     {
-       link:"www.github.com",
+       link:"https://github.com/Samiserf",
        red:"Github"
-    },
-    {
-      link:"www.behance.com",
-      red:"Behance"
     }] 
 
 
   const art = [
       {
-        image: design1,
-        title: "MODEL 3D",
-        descrip: "Harry Potter.",
-        href: "https://editorial.unipe.edu.ar/colecciones/herramientas/dise%C3%B1o-e-impresi%C3%B3n-de-objetos-3d-una-gu%C3%ADa-de-apoyo-a-escuelas-detail"
+        image: utopia,
+        title: "Utopia",
+        descrip: "Sitio realizado en Javascript post migrado a NextJS.",
+        href: "https://utopia.fundacionbyb.org/"
       },
       {
-        image: design2,
-        title: "CHARACTER ANIMATION",
-        descript: "Groot",
-        href: "https://editorial.unipe.edu.ar/colecciones/herramientas/dise%C3%B1o-e-impresi%C3%B3n-de-objetos-3d-una-gu%C3%ADa-de-apoyo-a-escuelas-detail"
+        image: cuatroPatas,
+        title: "Lettos",
+        descript: "Realizado en PHP y MySQL, 4Patas es un proyecto educativo",
+        href: "https://github.com/Samiserf/4patas"
       },
       {
-        image: design3,
-        title: "MODAL 3D",
-        descript: "Material.",
-        href: "https://editorial.unipe.edu.ar/colecciones/herramientas/dise%C3%B1o-e-impresi%C3%B3n-de-objetos-3d-una-gu%C3%ADa-de-apoyo-a-escuelas-detail"
+        image: countries,
+        title: "Countries web",
+        descript: "Pagina web para validar mi conocimiento sobre API REST. | Web Page for valid my kwnow about API REST",
+        href: "https://countries-rest.vercel.app/"
       },
       {
-        image: design1,
-        title: "FYLO WEB",
-        descript: "Material2.",
-        href: "https://editorial.unipe.edu.ar/colecciones/herramientas/dise%C3%B1o-e-impresi%C3%B3n-de-objetos-3d-una-gu%C3%ADa-de-apoyo-a-escuelas-detail"
-      },
-      {
-        image: design2,
-        title: "FYLO WEB",
-        descript: "elaborado.",
-        href: "https://editorial.unipe.edu.ar/colecciones/herramientas/dise%C3%B1o-e-impresi%C3%B3n-de-objetos-3d-una-gu%C3%ADa-de-apoyo-a-escuelas-detail"
-      },
-      {
-        image: design3,
-        title: "FYLO WEB",
-        descript: "UNIPE.",
-        href: "https://editorial.unipe.edu.ar/colecciones/herramientas/dise%C3%B1o-e-impresi%C3%B3n-de-objetos-3d-una-gu%C3%ADa-de-apoyo-a-escuelas-detail"
-      },
+        image: ecommerce,
+        title: "Ecommerce",
+        descript: "Sitio realizado con React, Javascript, integracion a API MELI, uso de Firebase Google, uso de context, states, Hooks.",
+        href: "https://github.com/Samiserf/CoderHouse"
+      }
   ];
 
 
   const proyects = [
       {
-        image: design1,
+        image: utopia,
         proyectName: "FYLO WEB"
       },
       {
-        image: design2,
+        image: cuatroPatas,
         proyectName: "LETTOS"
       },
       {
-        image:design3,
+        image:countries,
         proyectName: "4 Patas"
       }
   ];
@@ -100,39 +85,34 @@ export default function Home() {
         description: "Realizado en PHP y MySQL, 4Patas es un proyecto educativo"
       },
       {
-        title: "lettos",
-        description: "krkkrt."
+        title: "Countries",
+        description: "Realizo en React, JavaScript integracion con API."
       },
       {
-        title: "maps",
-        description: "Sitio redkgdhtJS."
+        title: "Ecommerce",
+        description: "Sitio realizado con React, Javascript, integracion a API MELI, uso de Firebase Google, uso de context, states, Hooks."
       },
       {
-        title: "lancefleet",
-        description: "Sitio realikykrado a NextJS."
+        title: "ChekIns",
+        description: "Sitio realizado en Android Studio con Kotlin."
       }
   ];
 
   const works = [
     {
-      title: "WUNDERMAN",
-      description: "- sites development // Visual Studio .NET. banners design and animation, GSAP, Adobe Animate. email development, HTML5, CSS3, Studio, testing emails // Litmus - EOA, video editing // AE"
+      title: "Cordial",
+      description: "- Lider desarrollo RPA, desarrollo de procesos evolutivos, armado de scripts, integracion con APIS, integracion de interfaces, relevamiento, implementacion, soporte."
     },
     {
       title: "PENT",
       description: "Teamwork in development and maintenance of different sites. Work with ReactJS, NextJS, jQuery, PHP, Drupal, SASS, AWS."
-    },
-    {
-      title: "GLAMIT",
-      description: "- Armado de reportes de performance de los equipos de desarrollo backend y frontend (individual y grupal). Armado de reportes acerca del progreso y evolución del los sprints / roadmaps de desarrollo. - seguimiento de las planificaciones de los distintos equipos. Colaboración en la comunicación de nuevos desarrollos hacia las distintas áreas internas y hacia el cliente.."
     }
 ];
 
   const aboutMe = [
-    "Marco",
-    "Multimedia designer",
-    "Full Stack",
-    "Web designer"
+    "Lucio",
+    "Developer RPA",
+    "Developer Full Stack"
   ];
 
   useEffect(() => {
@@ -175,13 +155,13 @@ export default function Home() {
 
       <Tecnologias />
 
-      <div className="carrousel_experiencia">
+      {/* <div className="carrousel_experiencia">
         <WebDesign introTitle="STAY PRODUCTIVE" introDescrip={`Creo que una de las mejores formas de aprender es haciendo. \\n Por eso, en mis tiempos libres, me gusta diseñar apps.`}
                    proyects={proyects}/>
-      </div>
+      </div> */}
 
       <div className="bloque_recursos">
-        <div className="title"><h2><sup>02</sup> Art</h2></div>
+        <div className="title"><h2><sup>02</sup> Webs</h2></div>
           <div className="contenedor_recursos">
               <Art art={art}
               />
@@ -198,10 +178,10 @@ export default function Home() {
           <h2><sup>04</sup> Contact</h2>
         </div>
         <div className="footer">
-          <Footer mail="marcoarielf96@gmail.com" social={social} tel="1136764398"/>
+          <Footer mail="filettolucio@gmail.com" social={social} tel="1138165004"/>
         </div>
         <div className="endFooter">
-          <h4> Marco Filetto - All rights reserved - 2021</h4>
+          <h4> Lucio Filetto - All rights reserved - 2021</h4>
         </div>
       </section>
     </div>

@@ -6,7 +6,7 @@ export default function Art(props) {
   return (
     <React.Fragment>
         {props.art.map( (art) => (
-          <a href="https://behance.com" target="_blank">
+          <a href={`${art.href}`} target="_blank">
             <div className="recurso">
                 <img src={art.image} />
                 <div className="overImage">
